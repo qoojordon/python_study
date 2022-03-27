@@ -16,4 +16,4 @@ jtk = Tracker.JobTracker()
 #wrong sytax, inner class does not have attribute of outer calss
 #print(f"job tracker tid:{jtk.tid}")
 
-
+#https://25349023.github.io/articles/2021-03/py-var-ref/#
