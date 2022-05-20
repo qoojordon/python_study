@@ -27,3 +27,20 @@ if __name__ == "__main__":
         for line in list(map( lambda x: x.strip(), f.readlines() )):
             print(f"{line}")
     print('== end ==')
+
+'''
+Output:
+== begin ==
+step1-1: <generator object <genexpr> at 0x7ffff0604a40>
+step1-2: ['line1', 'line2', 'line3']
+['line1\n', 'line2\n', 'line3\n']
+step2-1: <map object at 0x7ffff06056d8>
+step2-2: ['line1', 'line2', 'line3']
+['line1\n', 'line2\n', 'line3\n']
+step-3: ['line1', 'line2', 'line3']
+['line1\n', 'line2\n', 'line3\n']
+line1
+line2
+line3
+== end ==
+'''
